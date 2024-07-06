@@ -113,9 +113,8 @@ input {
   gap: 30px;
 }
 
-.result {
+.result  {
   width: 62,37%;
-
 }
 
 .content__details {
@@ -139,11 +138,9 @@ input {
   position: relative;
 }
 
-
 .result__video {
   width: 100%;
 }
-
 
 .search-form {
   display: flex;
@@ -154,7 +151,6 @@ input {
 
 .search-form__fieldset {
   border: none;
-
 }
 
 .search-form__fieldset-title {
@@ -194,7 +190,9 @@ input {
 
 .search-form__label:hover {
   text-decoration: underline;
+  text-underline-offset: 4px;
 }   
+
 
 .search-form__textfield:focus {
   outline: none;
@@ -270,12 +268,12 @@ input {
 
 .content__card-link:hover {
   text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .content__video-card {
   display: flex;
   justify-content: space-between;
-  
 }
 
 .content__video-card-title {
@@ -285,7 +283,7 @@ input {
   font-weight: 700;
   line-height: 30px;
   text-align: left;
-  margin-top: 6px;
+  margin-top: 2px;
 }
 
 .content__video-card-description {
@@ -296,6 +294,7 @@ input {
   text-align: left;
   appearance: none;
   width: 200px;
+  margin-top: 6px;
 }
 
 .content__video-card-description::first-line {
