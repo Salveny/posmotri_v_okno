@@ -117,7 +117,7 @@ input {
 }
 
 .content__details {
-  width: 35.5%;
+  width: 36.5%;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -279,13 +279,14 @@ input {
   text-underline-offset: 6px;
 }
 
+.content__card-link:active {
+  background-color: #545050;
+}
+
 .content__video-card {
   display: flex;
   width: 394px;
   justify-content: space-between;
-  overflow: hidden;
-  text-overflow: ellipsis; 
-  white-space: nowrap; 
 }
 
 .content__video-card-description-container {
@@ -298,6 +299,10 @@ input {
   font-size: 30px;
   line-height: 30px;
   margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+  padding-bottom: 5px; /*пэддинг нужен для появления подчеркивания в активном состоянии, оверфлоу его скрывает*/
 }
 
 .content__video-card-description {
@@ -320,7 +325,3 @@ input {
   object-position: center;
   align-self: center;
 }
-
-
-
-
